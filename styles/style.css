@@ -4,31 +4,33 @@
     margin: 0;
     padding: 0;
     font-family: "Fira Sans", serif;
-<<<<<<< HEAD
 }
-body{
-    background-color:rgb(245, 245, 245);
-=======
->>>>>>> 44ccccde85ac967b3ca9707d87ec33ab93bc6347
+
+body {
+    background-color: rgb(245, 245, 245);
 }
+
 /* Shared styles */
-.banner-container{
+.banner-container {
     margin: 30px auto;
     width: 1280px;
-   border-radius: 24px;
+    border-radius: 24px;
     background: rgb(198, 228, 214);
 }
-.banner{
-    width:1160px ;
-    display: flex; 
+
+.banner {
+    width: 1160px;
+    display: flex;
     padding: 0 60px;
-    justify-content:center;
+    justify-content: center;
 }
-.banner .left-container{
+
+.banner .left-container {
     width: 622px;
     padding: 110px 40px;
 }
-.banner .left-container h4{
+
+.banner .left-container h4 {
     color: rgba(14, 14, 14, 0.5);
     font-family: Fira Sans;
     font-size: 24px;
@@ -36,139 +38,248 @@ body{
     line-height: 29px;
     text-align: left;
 }
-.banner .left-container h2{
+
+.banner .left-container h2 {
     color: rgb(14, 14, 14);
-font-family: Fira Sans;
-font-size: 56px;
-font-weight: 700;
-line-height: 67px;
-text-align: left;
-margin: 16px 0px 24px 0px;
+    font-family: Fira Sans;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    text-align: left;
+    margin: 16px 0px 24px 0px;
 }
-.banner .left-container button{
+
+.banner .left-container button {
     color: rgb(255, 255, 255);
-font-family: Fira Sans;
-font-size: 18px;
-font-weight: 600;
-line-height: 22px;
-border: none;
-cursor: pointer;
-text-align: left;
-padding: 17px 34px 17px 34px;
-border-radius: 8px;
-background: rgb(0, 106, 80);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    padding: 17px 34px 17px 34px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
 }
-.banner .image-container{
-width: 474.03px;
-height: 329.21px;
-padding: 80px 60px 64px 0 ;
-margin-bottom: 80px;
-<<<<<<< HEAD
+
+.banner .image-container {
+    width: 474.03px;
+    height: 329.21px;
+    padding: 80px 60px 64px 0;
+    margin-bottom: 80px;
 }
+
 .future-vision {
     width: 1280px;
     margin: 50px auto;
 }
-.future-vision .future-vision-container h2{
+
+.future-vision .future-vision-container h2 {
     color: rgb(14, 14, 14);
-font-family: Fira Sans;
-font-size: 40px;
-font-weight: 700;
-line-height: 48px;
-letter-spacing: 0%;
-text-align: left;
-margin-bottom: 24px;
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 24px;
 }
-.future-vision .future-vision-container p{
+
+.future-vision .future-vision-container p {
     color: rgba(14, 14, 14, 0.7);
-font-family: Fira Sans;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: left;
-margin-bottom: 32px;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 32px;
 }
-.future-vision-card-container{
+
+.future-vision-card-container {
     display: flex;
     gap: 24px;
     margin-bottom: 32px;
 }
-.vision-future-card-1{
+
+.vision-future-card-1 {
     width: 410px;
     padding: 32px;
     box-sizing: border-box;
     border-radius: 16px;
     background: rgba(84, 144, 245, 0.2);
 }
-.vision-future-card-2{
+
+.vision-future-card-2 {
     width: 410px;
     padding: 32px;
     box-sizing: border-box;
     border-radius: 16px;
     background: rgb(198, 228, 214);
 }
-.vision-future-card-3{
+
+.vision-future-card-3 {
     width: 410px;
     padding: 32px;
     box-sizing: border-box;
     border-radius: 16px;
     background: rgb(247, 235, 207);
 }
-.future-vision-card-container img{
+
+.future-vision-card-container img {
     width: 49px;
     margin-bottom: 24px;
 }
-.future-vision-card-container h4{
+
+.future-vision-card-container h4 {
     color: rgba(14, 14, 14, 0.8);
-font-family: Fira Sans;
-font-size: 20px;
-font-weight: 700;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: left;
-margin-bottom: 12px;
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 12px;
 }
-.future-vision-card-container p{
+
+.future-vision-card-container p {
     color: rgba(14, 14, 14, 0.7);
-font-family: Fira Sans;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: left;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
 }
-.future-vision-card-container button{
+
+.future-vision-card-container button {
     color: rgb(255, 255, 255);
-font-family: Fira Sans;
-font-size: 16px;
-font-weight: 600;
-line-height: 19px;
-letter-spacing: 0%;
-text-align: left;
-padding: 11px 20px 11px 20px;
-border-radius: 8px;
-border: none;
-background: rgb(84, 144, 245);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 11px 20px 11px 20px;
+    border-radius: 8px;
+    border: none;
+    background: rgb(84, 144, 245);
 }
-.vision-future-card-2 button{
+
+.vision-future-card-2 button {
     border-radius: 8px;
     margin-top: 28px;
-background: rgb(9, 161, 92);
+    background: rgb(9, 161, 92);
 }
-.vision-future-card-3 button{
+
+.vision-future-card-3 button {
     border-radius: 8px;
 
-background: rgb(255, 194, 57);
+    background: rgb(255, 194, 57);
 }
-.quote-container{
+
+.quote-container {
     box-sizing: border-box;
-border: 1px solid rgba(14, 14, 14, 0.15);
-border-radius: 16px;
-background: rgb(255, 255, 255);
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
     padding: 48px 24px;
     background-image: url("../assets/quote-bg.png");
     background-repeat: no-repeat;
-=======
->>>>>>> 44ccccde85ac967b3ca9707d87ec33ab93bc6347
+}
+
+.news-container {
+    width: 1280px;
+    margin: 50px auto;
+}
+
+.news-title h2 {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 24px 0px;
+}
+
+.news-container p {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 12px 0px;
+}
+
+.news-container-1 {
+    display: flex;
+    align-items: center;
+    gap: 32;
+    padding: 48px;
+    margin: 24px 0px;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+}
+.news-container-1 img{
+    border-radius: 24px;
+    margin: 0px 32px
+}
+.side-info h3{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 12px 0;
+}
+.side-info img{
+    margin: 12px 0px;
+    border-radius: 0px;
+    background: url(8f195aac6f4a2c38bbf72c1fbeddbf9b);
+    
+}
+.side-info p {
+    color: rgba(14, 14, 14, 0.7);
+
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
+.side-info .side-description{
+    margin: 12px 0px;
+}
+.side-info button{
+color: rgb(255, 255, 255);
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+border: none;
+padding: 13px 26px 13px 26px;
+border-radius: 8px;
+background: rgb(0, 106, 80);
+}
+.news-container-2 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 32;
+    padding: 48px;
+    margin: 24px 0px;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+}
+.news-container-2 img{
+    border-radius: 24px;
+}
+.news-container-2 .side-info img{
+    border-radius: 0px;
 }
