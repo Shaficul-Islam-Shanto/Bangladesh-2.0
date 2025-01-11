@@ -4,9 +4,12 @@
     margin: 0;
     padding: 0;
     font-family: "Fira Sans", serif;
+<<<<<<< HEAD
 }
 body{
     background-color:rgb(245, 245, 245);
+=======
+>>>>>>> 44ccccde85ac967b3ca9707d87ec33ab93bc6347
 }
 /* Shared styles */
 .banner-container{
@@ -60,6 +63,7 @@ width: 474.03px;
 height: 329.21px;
 padding: 80px 60px 64px 0 ;
 margin-bottom: 80px;
+<<<<<<< HEAD
 }
 .future-vision {
     width: 1280px;
@@ -165,4 +169,6 @@ background: rgb(255, 255, 255);
     padding: 48px 24px;
     background-image: url("../assets/quote-bg.png");
     background-repeat: no-repeat;
+=======
+>>>>>>> 44ccccde85ac967b3ca9707d87ec33ab93bc6347
 }
