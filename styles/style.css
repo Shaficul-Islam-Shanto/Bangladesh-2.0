@@ -165,17 +165,19 @@ body {
     border-radius: 8px;
     border: none;
     background: rgb(84, 144, 245);
+    cursor: pointer;
 }
 
 .vision-future-card-2 button {
     border-radius: 8px;
     margin-top: 28px;
     background: rgb(9, 161, 92);
+    cursor: pointer;
 }
 
 .vision-future-card-3 button {
     border-radius: 8px;
-
+    cursor: pointer;
     background: rgb(255, 194, 57);
 }
 
@@ -266,7 +268,9 @@ border: none;
 padding: 13px 26px 13px 26px;
 border-radius: 8px;
 background: rgb(0, 106, 80);
+cursor: pointer;
 }
+
 .news-container-2 {
     display: flex;
     flex-direction: row-reverse;
@@ -323,6 +327,10 @@ border-radius: 16px;
 padding: 20px 40px;
 margin: 0px 24px;
 background: rgb(255, 255, 255);
+cursor: pointer;
+}
+.donate-amount-1:hover{
+    background: rgb(198, 228, 214);
 }
 .donate-amount-2{
     width: 240px;
@@ -333,6 +341,10 @@ border-radius: 16px;
 padding: 20px 40px;
 margin: 0px 24px;
 background: rgb(198, 228, 214);
+cursor: pointer;
+}
+.donate-amount-2:hover{
+    background: rgb(255, 255, 255);
 }
 .donate-amount-3{
     width: 240px;
@@ -343,7 +355,11 @@ border-radius: 16px;
 padding: 20px 40px;
 margin: 0px 24px;
 background: rgb(255, 255, 255);
+cursor: pointer;
 } 
+.donate-amount-3:hover{
+    background: rgb(198, 228, 214);
+}
 .donate-amount-4{
     width: 240px;
     rgb(255, 255, 255)
@@ -353,7 +369,11 @@ border-radius: 16px;
 padding: 20px 40px;
 margin: 0px 24px;
 background: rgb(255, 255, 255);
+cursor: pointer;
 } 
+.donate-amount-4:hover{
+    background: rgb(198, 228, 214);
+}
 .donate-amount-other{
     box-sizing: border-box;
 border-bottom: 1px solid rgba(14, 14, 14, 0.15);
@@ -378,6 +398,7 @@ padding: 13px 26px 13px 26px;
 border-radius: 8px;
 background: rgb(0, 106, 80);
 margin: 32px 44%;
+cursor: pointer;
 }
 .newsletter-section{
     width: 1280px;
@@ -440,4 +461,5 @@ font-weight: 600;
 line-height: 22px;
 letter-spacing: 0%;
 text-align: left;
+cursor: pointer;
 }
