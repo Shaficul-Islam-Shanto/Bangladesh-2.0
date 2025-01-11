@@ -283,3 +283,96 @@ background: rgb(0, 106, 80);
 .news-container-2 .side-info img{
     border-radius: 0px;
 }
+.donate-today{
+    width: 1280px;
+    margin: 50px auto;
+}
+.donate-today h2{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+margin: 24px 0px;
+}
+.donate-today p{
+    width: 1180px;
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+margin: 0px 24px;
+}
+.donate-today .donate-amount{
+    width: 1070px;
+    display: flex;
+    margin: 32px auto;
+    justify-content: center;
+}
+.donate-amount-1{
+    width: 240px;
+    rgb(255, 255, 255)
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+padding: 20px 40px;
+margin: 0px 24px;
+background: rgb(255, 255, 255);
+}
+.donate-amount-2{
+    width: 240px;
+    rgb(255, 255, 255)
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+padding: 20px 40px;
+margin: 0px 24px;
+background: rgb(198, 228, 214);
+}
+.donate-amount-3{
+    width: 240px;
+    rgb(255, 255, 255)
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+padding: 20px 40px;
+margin: 0px 24px;
+background: rgb(255, 255, 255);
+} 
+.donate-amount-4{
+    width: 240px;
+    rgb(255, 255, 255)
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+padding: 20px 40px;
+margin: 0px 24px;
+background: rgb(255, 255, 255);
+} 
+.donate-amount-other{
+    box-sizing: border-box;
+border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+background: rgb(255, 255, 255);
+    width: 1032px;
+    margin: 32px auto;
+    padding: 20px 40px 20px 40px;
+    text-align: center;
+} 
+.donate-button button{
+    color: rgb(255, 255, 255);
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+border: none;
+padding: 13px 26px 13px 26px;
+border-radius: 8px;
+background: rgb(0, 106, 80);
+margin: 32px 44%;
+}
