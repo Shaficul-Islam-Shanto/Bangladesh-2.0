@@ -5,7 +5,9 @@
     padding: 0;
     font-family: "Fira Sans", serif;
 }
-
+body{
+    background-color:rgb(245, 245, 245);
+}
 /* Shared styles */
 .banner-container{
     margin: 30px auto;
@@ -58,4 +60,109 @@ width: 474.03px;
 height: 329.21px;
 padding: 80px 60px 64px 0 ;
 margin-bottom: 80px;
+}
+.future-vision {
+    width: 1280px;
+    margin: 50px auto;
+}
+.future-vision .future-vision-container h2{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 24px;
+}
+.future-vision .future-vision-container p{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 32px;
+}
+.future-vision-card-container{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+.vision-future-card-1{
+    width: 410px;
+    padding: 32px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+}
+.vision-future-card-2{
+    width: 410px;
+    padding: 32px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+}
+.vision-future-card-3{
+    width: 410px;
+    padding: 32px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+}
+.future-vision-card-container img{
+    width: 49px;
+    margin-bottom: 24px;
+}
+.future-vision-card-container h4{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 12px;
+}
+.future-vision-card-container p{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.future-vision-card-container button{
+    color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+padding: 11px 20px 11px 20px;
+border-radius: 8px;
+border: none;
+background: rgb(84, 144, 245);
+}
+.vision-future-card-2 button{
+    border-radius: 8px;
+    margin-top: 28px;
+background: rgb(9, 161, 92);
+}
+.vision-future-card-3 button{
+    border-radius: 8px;
+
+background: rgb(255, 194, 57);
+}
+.quote-container{
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+    padding: 48px 24px;
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
 }
